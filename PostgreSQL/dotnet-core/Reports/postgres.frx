@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="11/08/2020 20:49:12" ReportInfo.Modified="11/09/2020 08:49:42" ReportInfo.CreatorVersion="2019.4.11.0">
+  <Dictionary>
+    <PostgresDataConnection Name="Connection" ConnectionString="rijcmlqx1T0cxaam7moPnKfk8dkZ//UtlLHjTy0OMpmCRUR0U+/r8szWvQEqyp/uoDrmMfYKebvvxhxeYG8KXKkUbzy70TI0yu6DPln0qkGwcoM0tn4SHk+PEfPXP1HFKTANJOCg+0GBvm2s7NZYmOjwOI+kKhaEE77wuMwDf9tuvy3zo0NVL+sYWaeZLq5jK1WQV2OaeZ8+KDgjiLo8vtowU2pU6JqJg+P72CHreT7OuMxeR8=">
+      <TableDataSource Name="public_employees" DataType="System.Int32" Enabled="true" TableName="public.&quot;employees&quot;">
+        <Column Name="employeeid" DataType="System.Int64"/>
+        <Column Name="lastname" DataType="System.String"/>
+        <Column Name="firstname" DataType="System.String"/>
+        <Column Name="title" DataType="System.String"/>
+        <Column Name="titleofcourtesy" DataType="System.String"/>
+        <Column Name="birthdate" DataType="System.DateTime"/>
+        <Column Name="hiredate" DataType="System.DateTime"/>
+        <Column Name="address" DataType="System.String"/>
+        <Column Name="city" DataType="System.String"/>
+        <Column Name="region" DataType="System.String"/>
+        <Column Name="postalcode" DataType="System.String"/>
+        <Column Name="country" DataType="System.String"/>
+        <Column Name="homephone" DataType="System.String"/>
+        <Column Name="extension" DataType="System.String"/>
+        <Column Name="photo" DataType="System.Byte[]" BindableControl="Picture"/>
+        <Column Name="notes" DataType="System.String"/>
+        <Column Name="reportsto" DataType="System.Int64"/>
+      </TableDataSource>
+    </PostgresDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" Fill.Color="White" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="56.7">
+      <TextObject Name="Text1" Top="9.45" Width="718.2" Height="37.8" Text="EMPLOYEES" HorzAlign="Center" VertAlign="Center" Font="Arial, 18pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="60.7" Width="718.2" Height="28.35">
+      <TextObject Name="Text3" Width="179.55" Height="18.9" Border.Lines="All" Border.Color="White" Fill.Color="ForestGreen" Text="Name" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextFill.Color="White"/>
+      <TextObject Name="Text5" Left="179.55" Width="151.2" Height="18.9" Border.Lines="All" Border.Color="White" Fill.Color="ForestGreen" Text="Title" HorzAlign="Center" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextFill.Color="White"/>
+      <TextObject Name="Text7" Left="330.75" Width="387.45" Height="18.9" Border.Lines="All" Border.Color="White" Fill.Color="ForestGreen" Text="Notes" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextFill.Color="White"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="93.05" Width="718.2" Height="18.9" CanGrow="true" DataSource="public_employees">
+      <TextObject Name="Text2" Width="179.55" Height="18.9" CanGrow="true" Text="[public_employees.firstname]  [public_employees.lastname]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text4" Left="179.55" Width="151.2" Height="18.9" CanGrow="true" Text="[public_employees.title]" VertAlign="Center" Font="Arial, 10pt"/>
+      <TextObject Name="Text6" Left="330.75" Width="387.45" Height="18.9" CanGrow="true" Text="[public_employees.notes]" Font="Arial, 10pt"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="115.95" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>
