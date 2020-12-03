@@ -10,4 +10,4 @@ If you want to find out something more and you think I may help you then feel fr
 2. [FastReport .NET](https://www.fast-report.com/en/product/fast-report-net/)
 3. [FastReport .NET White Papers](https://www.fast-report.com/en/blog/.NET/)
 4. [FastReport Open Source](https://github.com/FastReports/FastReport)
-5. [FastReport Open Source Articles and How-Tos](https://fropensource.blogspot.com/)
+5. [FastReport Open Source Articles and How-Tos](https://opensource.fast-report.com/)
