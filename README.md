@@ -1,4 +1,4 @@
-# Examples of using the FastReport .NET / Core / Open Source
+# FastReport .NET/Core/Open Source usage examples
 
 ## Contact
 
