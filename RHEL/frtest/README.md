@@ -28,7 +28,7 @@ Open the application in your browser
 https://localhost:8080
 ```
 
-The container has been tested under Red Hat Enterprise Linux 8.5.
+The container has been tested in Red Hat Enterprise Linux 8.5.
 
 ## References
 
