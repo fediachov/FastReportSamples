@@ -32,6 +32,8 @@ The container has been tested under Red Hat Enterprise Linux 8.5.
 
 ## References
 
+[FastReport .NET home](https://www.fast-report.com/en/product/fast-report-net/)
+
 [.NET 6 SDK and Runtime images for Red Hat](https://catalog.redhat.com/software/containers/search?q=.NET%206.0%20SDK%20and%20Runtime&p=1)
 
 [.NET 6.0 Runtime Only images for Red Hat](https://catalog.redhat.com/software/containers/search?q=.NET%206.0%20Runtime%20Only&p=1)
